@@ -20,7 +20,7 @@ class CashRegister
   def apply_discount
     if @discount > 0
       @total *= (@discount / 100.00)
-      puts "Discount applied! #{@discount}"
+      puts "Discount applied!"
     else
       puts "Error: No discount to apply."
     end
